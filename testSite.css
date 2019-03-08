@@ -552,7 +552,7 @@ select:focus {
 
 .sumsang-buttons {
 	display: block;
-	margin-top: 40px;
+	margin-top: 24px;
 }
 
 .sumsang .view {
@@ -573,6 +573,7 @@ select:focus {
 }
 
 .sumsang .learn {
+	margin-left: 12px;
 	background-color: transparent;
 	color: #747171;
 	border: 2px solid gray;
@@ -590,11 +591,11 @@ select:focus {
 }
 
 .container-4 {
-	margin-top: 50px;
+	margin-top: 28px;
 }
 
 .container-5 {
-	margin-top: 30px;
+	margin-top: 8px;
 }
 
 .container-5 .countdown{
@@ -630,7 +631,7 @@ select:focus {
 }
 
 .container-5 .bfsale {
-	margin-top: 32px;
+	margin-top: 20px;
 }
 
 .container-5 .bfsale img {
@@ -731,7 +732,7 @@ select:focus {
 }
 
 #promo {
-	display: none;
+	/*display: none;*/
 }
 
 p[class="item-price crossed"]{
@@ -965,6 +966,16 @@ span[class="item-price crossed"]{
 	padding-left: 30px;
 }
 
+.no-left{
+	padding-left: 0;
+	margin-left: 0;
+}
+
+.no-right {
+	padding-right: 0;
+	margin-right: 0;
+}
+
 .no-top {
 	padding-top: 0;
 	margin-top: 0;
@@ -976,7 +987,9 @@ span[class="item-price crossed"]{
 }
 
 #featured-items {
-	margin-top: 64px;
+	margin-top: 24px;
+	padding-top: 24px;
+	padding-bottom: 48px;
 	box-shadow: 0px 12px 48px -24px rgba(0,0,0,1);
 }
 

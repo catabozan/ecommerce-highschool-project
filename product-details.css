@@ -1,6 +1,6 @@
 #main-item {
-	margin-top: 96px;
-	margin-bottom: 20px;
+	margin-top: 48px;
+	margin-bottom: 24px;
 }
 
 #product-description {
@@ -74,7 +74,7 @@
 }
 
 #product-price {
-	margin-top: 32px;
+	margin-top: 24px;
 }
 
 #product-price span{
@@ -135,7 +135,6 @@
 
 #product-overview p:first-of-type{
 	font-size: 32px;
-	margin-bottom: 4px;
 	color: black;
 }
 
@@ -227,8 +226,10 @@
 }
 
 #thenical{
-	font-weight: 650;
+	font-weight: 700;
 	font-size: 34px;
+	margin-bottom: 12px;
+
 }
 .firsti{
 	font-weight:717;
@@ -240,7 +241,7 @@
 	color: #9B9B9B;
 }
 .specifications{
-   padding: 25px 5px;
+    padding: 24px 0;
     border-bottom: solid lightgrey 1px;
 }
 .col-3 p{
@@ -248,5 +249,5 @@
 }
 
 #product-technical-specs{
-	margin-bottom: 64px;
+	margin-bottom: 48px;
 }

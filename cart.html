@@ -91,7 +91,7 @@
 		<div class="row">
 			<div class="col-12">
 				<div class="left-content">
-					<img src="resources/images/logo-6.png">
+					<a href="index.html"><img src="resources/images/logo-6.png"></a>
 				</div>
 				<div class="right-content">
 					<ul>
@@ -182,8 +182,8 @@
 								<span>Inner Pages</span>
 								<ul>
 									<li><a href="category.html">Category</a></li>
-									<li>Cart</li>
-									<li>Product Details</li>
+									<li><a href="cart.html">Cart</a></li>
+									<li><a href="product-details.html">Product Details</a></li>
 									<li>Signup</li>
 									<li>Sellers Products</li>
 									<li>Sellers Dashboard</li>
@@ -311,33 +311,35 @@
 		</div>
 		<div class="row" id="cart-item">
 			<div class="col-7">
-				<div>
+				<div id="delete-item">
 					<span>x</span>
 				</div>
 				<img src="http://idealbrothers.thesoftking.com/html/bigenza/bigenja/assets/img/cart/01.jpg">
 				<div id="cart-item-name"><p>Wireless Audio System Multiroom 360</p></div>
 			</div>
 			<div class="col-5">
-				<div id="cart-item-price-wrapper">
-					<span class="item-price">1980$</span>
-
-					<div id="product-quantity">
-						<span>-</span>
-						<span>1</span>
-						<span>+</span>
+				<div id="cart-price">
+					<div><p>$1980</p></div>
+					<div>
+						<div id="product-quantity">
+							<span>-</span>
+							<span>1</span>
+							<span>+</span>
+						</div>
 					</div>
-
-					<span class="item-price">1980$</span>
+					<div><p>$1980</p></div>
 				</div>
 			</div>
 		</div>
-		<div class="row" id="cart-checkout">
-			<input placeholder="COUPON CODE" type="text" name="coupon-code" id="cart-coupon-input">
-			<button class="checkout-button">APPLY COUPON</button>
-			<button class="checkout-button">CHECKOUT</button>
-			<div class="col-7"></div>
-			<div class="col-5">
-				<div id="product-status">
+		<div class="row">
+			<div id="cart-checkout">
+				<input placeholder="COUPON CODE" type="text" name="coupon-code" id="cart-coupon-input">
+				<button class="checkout-button">APPLY COUPON</button>
+				<button class="checkout-button">CHECKOUT</button>
+			</div>
+				<div class="col-9"><p> </p></div>
+				<div class="col-3 no-right">
+					<div id="product-status">
 					<div>
 						<span>Subtotal:</span>
 						<span>1980$</span>
@@ -356,6 +358,7 @@
 					</div>
 				</div>
 			</div>
+			
 		</div>
 	</div>
 	<div class="container-11">

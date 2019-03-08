@@ -11,6 +11,10 @@
 	padding-top: 40px;
 }
 
+#products-category {
+	margin: 48px auto;
+}
+
 .category-menu {
 	color: #bbc4d1;
 	font-size: 13px;
@@ -37,7 +41,7 @@
 }
 
 #compare-menu-category {
-	margin-top: 32px;
+	margin-top: 20px;
 }
 
 #compare-menu-category li{
