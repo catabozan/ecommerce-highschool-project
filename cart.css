@@ -33,7 +33,7 @@
 	cursor: pointer;
 }
 
-##delete-item span{
+#delete-item span{
 	color: #EF5350;
 	font-weight: 700;
 
@@ -102,6 +102,7 @@
 
 .checkout-button:nth-of-type(2){
 	float: right;
+	width: 240px;
 }
 
 .checkout-button:hover {
@@ -114,7 +115,7 @@
 }
 
 #cart-checkout + .col-9 + .col-3 #product-status {
-	margin-top: 24px;
+	margin-top: 20px;
 }
 
 #cart-checkout + .col-9 + .col-3 #product-status div{
